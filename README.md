@@ -313,32 +313,28 @@ The outcomes of a Unit Test can generally be categorized into several key result
 
 1. **Pass**
 
-Description: The unit test passes when the actual output of the unit matches the expected output.
-
-Implication: Indicates that the unit of code functions correctly for the given test case. No further action is needed for this specific test.
+- Description: The unit test passes when the actual output of the unit matches the expected output.
+- Implication: Indicates that the unit of code functions correctly for the given test case. No further action is needed for this specific test.
 
 2. **Fail**
 
-Description: The unit test fails when the actual output does not match the expected output.
-
-Implication: Indicates a defect or bug in the unit of code. The code needs to be reviewed and corrected to meet the expected behavior.
+- Description: The unit test fails when the actual output does not match the expected output.
+- Implication: Indicates a defect or bug in the unit of code. The code needs to be reviewed and corrected to meet the expected behavior.
 
 3. **Error**
 
-Description: An error occurs when the test cannot be executed due to an unexpected problem, such as an exception being thrown or a runtime error.
-
-Implication: Indicates issues that may not be related to the logic of the unit but rather to its execution environment or dependencies. These need to be investigated and resolved.
+- Description: An error occurs when the test cannot be executed due to an unexpected problem, such as an exception being thrown or a runtime error.
+- Implication: Indicates issues that may not be related to the logic of the unit but rather to its execution environment or dependencies. These need to be investigated and resolved.
 
 4. **Skipped/Ignored**
 
-Description: The test is intentionally skipped or ignored, often due to configuration settings or specific annotations.
-Implication: Indicates that the test was not run, possibly because it is not relevant in the current context, it is under development, or it depends on an unavailable resource.
+- Description: The test is intentionally skipped or ignored, often due to configuration settings or specific annotations.
+- Implication: Indicates that the test was not run, possibly because it is not relevant in the current context, it is under development, or it depends on an unavailable resource.
 
 5. **Incomplete**
 
-Description: The test case did not run to completion due to an interruption or timeout.
-
-Implication: Indicates that the test could not be fully executed, possibly requiring adjustments to the test environment or code.
+- Description: The test case did not run to completion due to an interruption or timeout.
+- Implication: Indicates that the test could not be fully executed, possibly requiring adjustments to the test environment or code.
 
 The outcomes of unit tests provide essential feedback to developers, allowing them to identify and address issues early in the development process. By analyzing these outcomes, developers can ensure that each unit of code behaves as expected, contributing to the overall stability and reliability of the software.
 
@@ -348,63 +344,53 @@ Implementing Unit Testing in your code is crucial for several reasons, each cont
 
 1. **Early Bug Detection**
 
-Benefit: Unit tests help identify bugs at an early stage in the development process.
-
-Impact: Early detection allows for quicker and less costly fixes, reducing the overall cost of development.
+- Benefit: Unit tests help identify bugs at an early stage in the development process.
+- Impact: Early detection allows for quicker and less costly fixes, reducing the overall cost of development.
 
 2. **Improved Code Quality**
 
-Benefit: Writing unit tests encourages developers to write more modular, understandable, and maintainable code.
-
-Impact: High-quality code is easier to read, understand, and modify, leading to a more robust and flexible codebase.
+- Benefit: Writing unit tests encourages developers to write more modular, understandable, and maintainable code.
+- Impact: High-quality code is easier to read, understand, and modify, leading to a more robust and flexible codebase.
 
 3. **Facilitates Refactoring**
 
-Benefit: Unit tests provide a safety net that allows developers to refactor code with confidence.
-
-Impact: Refactoring improves code structure and performance without the risk of introducing new bugs, ensuring that existing functionality remains intact.
+- Benefit: Unit tests provide a safety net that allows developers to refactor code with confidence.
+- Impact: Refactoring improves code structure and performance without the risk of introducing new bugs, ensuring that existing functionality remains intact.
 
 4. **Documentation**
 
-Benefit: Unit tests act as live documentation of the codebase, illustrating how different units are expected to behave.
-
-Impact: This documentation is invaluable for new developers joining the project and for future maintenance.
+- Benefit: Unit tests act as live documentation of the codebase, illustrating how different units are expected to behave.
+- Impact: This documentation is invaluable for new developers joining the project and for future maintenance.
 
 5. **Simplifies Integration**
 
-Benefit: Ensuring that individual units work correctly simplifies the process of integrating them into larger systems.
-
-Impact: Reduces the complexity and risk associated with integration, leading to smoother and more reliable integration phases.
+- Benefit: Ensuring that individual units work correctly simplifies the process of integrating them into larger systems.
+- Impact: Reduces the complexity and risk associated with integration, leading to smoother and more reliable integration phases.
 
 6. **Enhances Development Speed**
 
-Benefit: Automated unit tests can be run quickly and frequently, providing immediate feedback to developers.
-
-Impact: Faster feedback loops accelerate the development process, allowing for quicker iteration and improvement.
+- Benefit: Automated unit tests can be run quickly and frequently, providing immediate feedback to developers.
+- Impact: Faster feedback loops accelerate the development process, allowing for quicker iteration and improvement.
 
 7. **Increases Confidence in Code Changes**
 
-Benefit: Unit tests verify that code changes do not break existing functionality.
-
-Impact: This confidence encourages more frequent updates and improvements, knowing that any issues will be promptly detected.
+- Benefit: Unit tests verify that code changes do not break existing functionality.
+- Impact: This confidence encourages more frequent updates and improvements, knowing that any issues will be promptly detected.
 
 8. **Supports Continuous Integration/Continuous Deployment (CI/CD)**
 
-Benefit: Unit tests are essential for CI/CD pipelines, ensuring that changes are automatically tested before integration.
-
-Impact: Facilitates a streamlined and automated workflow, enhancing the efficiency and reliability of the deployment process.
+- Benefit: Unit tests are essential for CI/CD pipelines, ensuring that changes are automatically tested before integration.
+- Impact: Facilitates a streamlined and automated workflow, enhancing the efficiency and reliability of the deployment process.
 
 9. **Reduces Debugging Time**
 
-Benefit: By pinpointing the exact location of issues, unit tests reduce the time spent on debugging.
-
-Impact: Developers can quickly address specific problems without extensive troubleshooting, improving overall productivity.
+- Benefit: By pinpointing the exact location of issues, unit tests reduce the time spent on debugging.
+- Impact: Developers can quickly address specific problems without extensive troubleshooting, improving overall productivity.
 
 10. **Encourages Test-Driven Development (TDD)**
 
-Benefit: Implementing unit tests promotes the practice of Test-Driven Development, where tests are written before the code.
-
-Impact: TDD ensures that the code meets the required functionality from the outset, leading to more thoughtful and deliberate code design.
+- Benefit: Implementing unit tests promotes the practice of Test-Driven Development, where tests are written before the code.
+- Impact: TDD ensures that the code meets the required functionality from the outset, leading to more thoughtful and deliberate code design.
 
 Incorporating unit testing into your development process is essential for creating high-quality, reliable, and maintainable software. The benefits of early bug detection, improved code quality, facilitated refactoring, and enhanced development speed make unit testing a best practice that every developer should embrace. By providing immediate feedback and supporting CI/CD, unit tests help ensure that your codebase remains robust and adaptable to future changes, ultimately leading to a more successful software project.
 
@@ -414,54 +400,54 @@ Unit Testing is a fundamental practice in software development that ensures indi
 
 **Python**
 
-unittest: Built-in library for unit testing.
-pytest: A powerful and flexible testing framework.
-nose2: Extends unittest to make testing easier.
+- unittest: Built-in library for unit testing.
+- pytest: A powerful and flexible testing framework.
+- nose2: Extends unittest to make testing easier.
 
 **Java**
 
-JUnit: The most widely used testing framework for Java applications.
-TestNG: A testing framework inspired by JUnit but with additional features.
+- JUnit: The most widely used testing framework for Java applications.
+- TestNG: A testing framework inspired by JUnit but with additional features.
 
 **JavaScript**
 
-Jest: A comprehensive testing framework developed by Facebook.
-Mocha: A flexible testing framework that works well with assertion libraries like Chai.
-Jasmine: A behavior-driven development framework for testing JavaScript code.
+- Jest: A comprehensive testing framework developed by Facebook.
+- Mocha: A flexible testing framework that works well with assertion libraries like Chai.
+- Jasmine: A behavior-driven development framework for testing JavaScript code.
 
 **C#**
 
-NUnit: A popular unit-testing framework for all .NET languages.
-MSTest: The Microsoft Test framework, integrated with Visual Studio.
-xUnit.net: A free, open-source, community-focused unit testing tool.
+- NUnit: A popular unit-testing framework for all .NET languages.
+- MSTest: The Microsoft Test framework, integrated with Visual Studio.
+- xUnit.net: A free, open-source, community-focused unit testing tool.
 
 **Ruby**
 
-RSpec: A behavior-driven development (BDD) framework for Ruby.
-Minitest: A lightweight and fast testing library that comes with Ruby.
+- RSpec: A behavior-driven development (BDD) framework for Ruby.
+- Minitest: A lightweight and fast testing library that comes with Ruby.
 
 **PHP**
 
-PHPUnit: A widely-used framework for testing PHP code.
+- PHPUnit: A widely-used framework for testing PHP code.
 
 **C++**
 
-Google Test (gtest): A framework for writing C++ tests.
-Boost.Test: Part of the Boost C++ Libraries, offering support for writing unit tests.
+- Google Test (gtest): A framework for writing C++ tests.
+- Boost.Test: Part of the Boost C++ Libraries, offering support for writing unit tests.
 
 **Go**
 
-testing: The built-in testing package in Go.
-Testify: A toolkit with assertions and mocking capabilities for Go tests.
+- testing: The built-in testing package in Go.
+- Testify: A toolkit with assertions and mocking capabilities for Go tests.
 
 **Swift**
 
-XCTest: The standard testing framework provided by Apple for Swift and Objective-C.
+- XCTest: The standard testing framework provided by Apple for Swift and Objective-C.
 
 **Kotlin**
 
-KotlinTest: A flexible and comprehensive testing framework for Kotlin.
-Spek: A specification framework for Kotlin.
+- KotlinTest: A flexible and comprehensive testing framework for Kotlin.
+- Spek: A specification framework for Kotlin.
 
 # II. Unit Testing in Python
 
