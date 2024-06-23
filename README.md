@@ -38,7 +38,7 @@
 
 Unit Testing is a fundamental practice in software development where individual units or components of a software application are tested in isolation from the rest of the application. This practice ensures that each unit functions correctly and independently before being integrated into the larger system. By catching and fixing issues at this granular level, developers can improve code quality, facilitate easier maintenance, and enhance the overall reliability of the software.
 
-## Manual testing vs Automated Testing.
+## 1. Manual testing vs Automated Testing.
 
 When it comes to testing code, there are two primary approaches that have been utilized: manual testing and automated testing. In software development, it is common practice to test developments to ensure that the code functions correctly and meets the desired requirements. Testing not only helps in identifying and fixing bugs early in the development cycle but also ensures the reliability and stability of the software. Proper testing practices are crucial for delivering high-quality software that performs as expected in various scenarios.
 
@@ -92,7 +92,9 @@ Automated Testing is a software testing process that uses automated tools and sc
 
 While both manual and automated testing have their own advantages and disadvantages, automated testing often provides significant benefits in terms of speed, reliability, and efficiency. Automated tests are particularly valuable for regression testing, where tests need to be run repeatedly. On the other hand, manual testing is still essential for exploratory testing and user interface testing, where human judgment and intuition play a critical role. Balancing both approaches can help ensure comprehensive testing coverage and high-quality software development.
 
-## Automating Testing Strategies.
+
+
+## 2. Automating Testing Strategies.
 
 Within the realm of automated testing, there are several strategies commonly used to ensure comprehensive test coverage and efficient testing processes. Here are some of the main automated testing strategies:
 
@@ -103,6 +105,8 @@ Within the realm of automated testing, there are several strategies commonly use
 - **Definition**: Testing individual units or components of a software application in isolation.
 - **Purpose**: Ensure that each unit of the codebase functions as expected.
 - **Tools**: unittest (Python), JUnit (Java), NUnit (.NET).
+
+ ![ut](/ima/ima5.png)
 
 ### 2. Integration Testing
 
@@ -115,6 +119,8 @@ Within the realm of automated testing, there are several strategies commonly use
 - **Definition**: Testing the complete workflow of an application from start to finish.
 - **Purpose**: Ensure that the entire application flow works as expected in a production-like environment.
 - **Tools**: Selenium, Cypress, Protractor.
+
+ ![ut](/ima/ima4.png)
 
 ### 4. Functional Testing
 
@@ -167,7 +173,7 @@ Within the realm of automated testing, there are several strategies commonly use
 Each of these strategies plays a crucial role in a comprehensive testing approach, ensuring that different aspects of the software are validated for functionality, performance, and security. Implementing a combination of these strategies can significantly enhance the reliability and quality of the software. We will cover in depht the Unit Testing.
 
 
-## What's Unit Testing?
+## 3. What's Unit Testing?
 
 Unit Testing is a software testing method where the smallest testable parts of an application, called units, are individually and independently scrutinized for proper operation. This is typically done by the developer who writes the code. Here are some key characteristics and uses of Unit Testing:
 
