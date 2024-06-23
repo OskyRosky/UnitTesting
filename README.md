@@ -177,6 +177,8 @@ Each of these strategies plays a crucial role in a comprehensive testing approac
 
 Unit Testing is a software testing method where the smallest testable parts of an application, called units, are individually and independently scrutinized for proper operation. This is typically done by the developer who writes the code. Here are some key characteristics and uses of Unit Testing:
 
+ ![ut](/ima/ima6.png)
+
 ### A. Characteristics of Unit Testing
 
 1. **Isolation**: Each test case should be isolated from others to ensure that the tests do not interfere with each other. This allows each unit to be tested independently.
