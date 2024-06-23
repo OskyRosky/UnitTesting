@@ -186,12 +186,16 @@ Unit Testing is a software testing method where the smallest testable parts of a
 3. **Repeatable**: Tests can be run multiple times with the same outcome, ensuring consistency and reliability.
 4. **Fast Execution**: Since unit tests target small pieces of code, they typically run very quickly, providing rapid feedback to developers.
 
+ ![ut](/ima/ima8.png)
+
 ### B. Approaches and Uses of Unit Testing:
 
 1. **Test-Driven Development (TDD)**: In TDD, developers write unit tests before the actual code. This ensures that the code meets the required functionality from the start.
 1. **Behavior-Driven Development (BDD)**: This approach extends TDD by writing tests in a way that describes the behavior of the application, making it easier for non-developers to understand.
 1. **Regression Testing**: Unit tests help in identifying bugs that might have been introduced due to recent changes in the code, thus ensuring existing functionality remains unaffected.
 1. **Documentation**: Unit tests act as a form of documentation, providing examples of how units of code are intended to be used and what output to expect.
+
+ ![ut](/ima/ima9.webp)
 
 ### C. Example of Unit Testing in Python:
 
