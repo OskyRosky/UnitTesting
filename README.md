@@ -266,6 +266,8 @@ A Unit Test refers to a specific, individual test case that is written and execu
 
 Unit Testing is a critical practice in software development that involves several stages to ensure thorough validation of individual units of code. The process begins with planning, where the scope and objectives are defined. This is followed by designing test cases that cover various scenarios and setting up a test environment with the necessary tools and dependencies. Writing the test code and executing the tests are crucial steps to identify any issues. Analyzing the results helps in diagnosing problems, which are then debugged and fixed. Refactoring and optimizing the code and tests enhance quality and performance. Integrating unit tests into a continuous integration pipeline ensures ongoing automated testing. Finally, regular maintenance keeps the test cases relevant and effective as the codebase evolves. These stages collectively ensure that each unit of code functions correctly and reliably, contributing to the overall quality of the software.
 
+ ![ut](/ima/ima10.png)
+
 1. **Planning**
 
 Define the scope, objectives, and criteria for the tests.
